@@ -5,7 +5,7 @@ package com.vibe.design.pattern.observer;
  * @author: vibe
  * @create: 2021-09-27 15:32
  **/
-public class HexaObserver extends Observer{
+public class HexaObserver extends BaseObserver {
 
     public HexaObserver(Subject subject){
         this.subject = subject;

@@ -5,7 +5,7 @@ package com.vibe.design.pattern.observer;
  * @author: vibe
  * @create: 2021-09-27 15:23
  **/
-public abstract class Observer {
+public abstract class BaseObserver {
 
 
     protected Subject subject;

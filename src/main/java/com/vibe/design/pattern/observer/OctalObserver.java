@@ -5,7 +5,7 @@ package com.vibe.design.pattern.observer;
  * @author: vibe
  * @create: 2021-09-27 15:31
  **/
-public class OctalObserver extends Observer{
+public class OctalObserver extends BaseObserver {
 
     public OctalObserver(Subject subject){
         this.subject = subject;

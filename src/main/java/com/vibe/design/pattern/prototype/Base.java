@@ -10,6 +10,7 @@ public class Base implements Cloneable{
     //clone浅拷贝无法深拷贝
     //private ArrayList list = new ArrayList();
 
+    @Override
     public Base clone(){
         Base obj = null;
         try {

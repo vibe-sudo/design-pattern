@@ -5,7 +5,7 @@ package com.vibe.design.pattern.observer;
  * @author: vibe
  * @create: 2021-09-27 15:27
  **/
-public class BinaryObserver extends Observer{
+public class BinaryObserver extends BaseObserver {
 
     public BinaryObserver(Subject subject){
         this.subject = subject;
